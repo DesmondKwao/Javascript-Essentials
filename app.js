@@ -1,6 +1,6 @@
 let selection = document.getElementsByName('desgin');
 
-let div = document.getElementById('main');
+let getId = document.getElementById('main');
 
 function set()
 {
@@ -9,9 +9,9 @@ function set()
     {
         let desgin = selection[ entry ].getAttribute('id');
 
-        let cssValue = selection[ entry ].value;
+        let setSelect = selection[ entry ].value;
 
-        div.style[ desgin ] = cssValue;
+        getId.style[ desgin ] = setSelect;
     }
 }
 
